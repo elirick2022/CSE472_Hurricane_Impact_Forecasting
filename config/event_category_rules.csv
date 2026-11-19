@@ -1,0 +1,10 @@
+category,rule,status,notes
+Flooding,automatic_include,approved,Include within the selected event window.
+Storm Debris Collection,automatic_include,approved,Include within the selected event window.
+Crisis Cleanup,automatic_include,approved,Include within the selected event window.
+Street Hazard,automatic_include,approved,Include within the selected event window for all storms.
+Tree Removal,automatic_include,approved,Include within the selected event window for all storms.
+Street Condition,automatic_include,approved,Include within the selected event window for all storms.
+Traffic Signal Maintenance,automatic_include,approved,Include within the selected event window for all storms.
+Traffic Signals,automatic_include,approved,Include within the selected event window for all storms.
+Water Leak,automatic_include,approved,Include within the selected event window for all storms.

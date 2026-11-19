@@ -1,0 +1,32 @@
+{
+  "event_name": "Hurricane Nicholas",
+  "storm_name": "Nicholas",
+  "track_source": {
+    "title": "National Hurricane Center Tropical Cyclone Report: Hurricane Nicholas",
+    "url": "https://www.nhc.noaa.gov/data/tcr/AL142021_Nicholas.pdf",
+    "table": "Best track, Table 1",
+    "track_fix_utc": "2021-09-14T18:00:00Z",
+    "track_fix_latitude": 29.6,
+    "track_fix_longitude": -94.9,
+    "anchor_selection": "Closest six-hour best-track fix to Houston reference point (29.7604 N, 95.3698 W); the fix is approximately 49 km away."
+  },
+  "window_method": {
+    "description": "Same as Harvey: three calendar days before through ten calendar days after the closest available track fix, inclusive.",
+    "offset_days_before": 3,
+    "offset_days_after": 10
+  },
+  "event_window_utc": {
+    "start_inclusive": "2021-09-11T00:00:00Z",
+    "last_included_date": "2021-09-24",
+    "end_exclusive": "2021-09-25T00:00:00Z"
+  },
+  "prior_window_utc": {
+    "start_inclusive": "2021-08-14T00:00:00Z",
+    "last_included_date": "2021-09-10",
+    "end_exclusive": "2021-09-11T00:00:00Z",
+    "days": 28
+  },
+  "timestamp_field": "Created Date UTC",
+  "timestamp_timezone": "UTC",
+  "timezone": "UTC"
+}

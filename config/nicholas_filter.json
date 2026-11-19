@@ -1,0 +1,57 @@
+{
+  "storm_name": "Nicholas",
+  "storm_name_phrases": [
+    "Nicholas",
+    "Hurricane Nicholas",
+    "Tropical Storm Nicholas",
+    "Nicholas-related",
+    "after Nicholas",
+    "because of Nicholas"
+  ],
+  "additional_automatic_categories": [
+    "Disaster Recovery Escalation",
+    "Severe Storm Tree Removal",
+    "Spilled Debris"
+  ],
+  "negation_words": ["no", "not", "never", "without"],
+  "rules": [
+    {
+      "id": "named_storm",
+      "type": "storm_name",
+      "categories": "all_other"
+    },
+    {
+      "id": "direct_attribution",
+      "type": "any_phrase",
+      "categories": "all_other",
+      "phrases": [
+        "storm damage",
+        "storm debris",
+        "due to the storm",
+        "damaged by the hurricane",
+        "knocked out by high winds",
+        "caused by flooding"
+      ]
+    },
+    {
+      "id": "traffic_signal_failure_weather",
+      "type": "all_groups",
+      "categories": ["Traffic Signal Maintenance", "Traffic Signals"],
+      "groups": [
+        ["signal dark", "signal flashing", "signal not working", "power outage"],
+        ["storm", "flooding", "high winds"]
+      ]
+    },
+    {
+      "id": "sewer_backup_weather",
+      "type": "all_groups",
+      "categories": ["Sewer Wastewater", "Sewer Manhole", "Drainage"],
+      "groups": [
+        ["sewer", "sewage", "manhole"],
+        ["backed up", "backup", "overflowing"],
+        ["rain", "flooding", "storm"]
+      ]
+    }
+  ],
+  "excluded_standalone_phrases": ["downed tree", "standing water"]
+}

@@ -1,0 +1,13 @@
+# Local source data and generated products
+/data/
+/outputs/
+.DS_Store
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

@@ -1,0 +1,16 @@
+harvey_rule_category,nicholas_2021_category,mapping_status,automatic_inclusion,annual_2021_requests,prior_window_requests,event_window_requests,review_note
+Flooding,Flooding,exact_name,yes,740,63,14,Same label is present in the 2021 extract.
+Storm Debris Collection,Storm Debris Collection,exact_name,yes,1911,0,492,Same label is present in the 2021 extract.
+Crisis Cleanup,,missing,no,0,0,0,No Crisis Cleanup label occurs in the 2021 extract.
+,Disaster Recovery Escalation,nicholas_specific_auto_include,yes,3,1,0,Added as a Nicholas-only automatic category by user decision; not asserted to be a Crisis Cleanup label equivalent.
+,Spilled Debris,nicholas_specific_auto_include,yes,298,18,5,Added as a Nicholas-only automatic category by user decision; not asserted to be equivalent to Storm Debris Collection.
+,Severe Storm Tree Removal,nicholas_specific_auto_include,yes,20,0,0,Added as a Nicholas-only automatic category by user decision; retained as a distinct service label.
+Traffic Signal Maintenance,Traffic Signal Maintenance,exact_name,yes,19261,1768,1926,Exact 2021 label; now a shared automatic include for both storms.
+Traffic Signals,Traffic Signals,exact_name,yes,3336,337,181,Exact 2021 label; now a shared automatic include for both storms.
+Sewer Wastewater,Sewer Wastewater,exact_name,shared_keyword_scope,22931,1284,681,Exact 2021 label matches the shared sewer-backup rule.
+Sewer Manhole,Sewer Manhole,exact_name,shared_keyword_scope,512,36,15,Exact 2021 label matches the shared sewer-backup rule.
+Drainage,Drainage,exact_name,yes,9922,758,417,Exact 2021 label; now a shared automatic include for both storms.
+Street Hazard,Street Hazard,exact_name,yes,10575,923,748,Exact 2021 label; now a shared automatic include for both storms.
+Tree Removal,Tree Removal,exact_name,yes,2471,218,298,Exact 2021 label; now a shared automatic include for both storms.
+Street Condition,Street Condition,exact_name,yes,8758,791,332,Exact 2021 label; now a shared automatic include for both storms.
+Water Leak,Water Leak,exact_name,yes,29254,1892,883,Exact 2021 label; now a shared automatic include for both storms.
